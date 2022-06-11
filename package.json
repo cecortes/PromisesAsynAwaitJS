@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/cecortes/PromisesAsynAwaitJS/issues"
   },
-  "homepage": "https://github.com/cecortes/PromisesAsynAwaitJS#readme"
+  "homepage": "https://github.com/cecortes/PromisesAsynAwaitJS#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
