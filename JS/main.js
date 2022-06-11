@@ -35,6 +35,15 @@ $(function () {
     });
   }
 
+  // Function to return an Async with jsonData
+  async function getDataAsync() {
+    // Call and wait for the promise to resolve
+    const data = await getDataPromise();
+
+    // Show the data
+    console.log("B. getDataAsync() resolved:", data);
+  }
+
   // Function to show promise sequence
   function showPromiseSequence() {
     // Show the sequence of the promise
@@ -47,6 +56,17 @@ $(function () {
     console.log("3. Get data: ", getData());
   }
 
+  // Function to show async sequence
+  function showAsyncSequence() {
+    // Show the sequence of the async
+    console.log("A. Calling getDataAsync()");
+
+    getDataAsync();
+  }
+
   // Show promise sequence
   showPromiseSequence();
+
+  // Show async sequence
+  showAsyncSequence();
 });
