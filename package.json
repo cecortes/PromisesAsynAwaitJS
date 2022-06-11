@@ -1,0 +1,25 @@
+{
+  "name": "promisesasynawaitjs",
+  "version": "1.0.0",
+  "description": "JS tutorial for promises, async and await",
+  "main": "./JS/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecortes/PromisesAsynAwaitJS.git"
+  },
+  "keywords": [
+    "JS",
+    "Promises",
+    "ASYNC",
+    "AWAIT"
+  ],
+  "author": "César López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cecortes/PromisesAsynAwaitJS/issues"
+  },
+  "homepage": "https://github.com/cecortes/PromisesAsynAwaitJS#readme"
+}
